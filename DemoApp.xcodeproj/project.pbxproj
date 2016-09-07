@@ -14,6 +14,7 @@
 		5DF6EB381D7FF97400D56C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6EB361D7FF97400D56C8B /* LaunchScreen.storyboard */; };
 		5DF6EB431D7FF97400D56C8B /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6EB421D7FF97400D56C8B /* DemoAppTests.swift */; };
 		5DF6EB4E1D7FF97400D56C8B /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6EB4D1D7FF97400D56C8B /* DemoAppUITests.swift */; };
+		5DF6EB5F1D80030D00D56C8B /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6EB5E1D80030D00D56C8B /* swift.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5DF6EB491D7FF97400D56C8B /* DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF6EB4D1D7FF97400D56C8B /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 		5DF6EB4F1D7FF97400D56C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF6EB5E1D80030D00D56C8B /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		5DF6EB2C1D7FF97400D56C8B /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				5DF6EB5B1D80024E00D56C8B /* Supporting Files */,
 				5DF6EB2D1D7FF97400D56C8B /* AppDelegate.swift */,
 				5DF6EB2F1D7FF97400D56C8B /* ViewController.swift */,
 				5DF6EB311D7FF97400D56C8B /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				5DF6EB4F1D7FF97400D56C8B /* Info.plist */,
 			);
 			path = DemoAppUITests;
+			sourceTree = "<group>";
+		};
+		5DF6EB5B1D80024E00D56C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF6EB5E1D80030D00D56C8B /* swift.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF6EB381D7FF97400D56C8B /* LaunchScreen.storyboard in Resources */,
+				5DF6EB5F1D80030D00D56C8B /* swift.png in Resources */,
 				5DF6EB351D7FF97400D56C8B /* Assets.xcassets in Resources */,
 				5DF6EB331D7FF97400D56C8B /* Main.storyboard in Resources */,
 			);
